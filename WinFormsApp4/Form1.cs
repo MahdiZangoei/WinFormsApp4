@@ -45,7 +45,7 @@ namespace WinFormsApp4
             }
             catch (Exception ex)
             {
-                MessageBox.Show("");
+                MessageBox.Show("Enter a Number... \n[" + textBox1.Text + "] Not Number");
                 textBox1.Text = "";
             }
             
